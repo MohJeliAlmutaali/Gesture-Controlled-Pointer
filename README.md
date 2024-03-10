@@ -10,9 +10,7 @@ This Python program allows you to control the mouse cursor and perform clicks us
 - PyAutoGUI (`pyautogui` package)
 
 You can install the required packages using pip:
-pip install opencv-python
-pip install mediapipe
-pip install pyautogui
+pip install opencv-python mediapipe pyautogui
 
 
 ## How to Use
@@ -31,8 +29,3 @@ pip install pyautogui
 
 - If the program does not detect your hand or fingers accurately, try adjusting the lighting conditions or the position of your hand relative to the camera.
 - If the mouse cursor moves erratically or the clicks are not performed correctly, try adjusting the sensitivity thresholds in the code (`abs(newX - prevX)` and `abs(newY - prevY)`).
-
-## License
-
-This project is licensed under the MIT License. Feel free to modify and distribute it as needed. See the [LICENSE](LICENSE) file for details.
-
